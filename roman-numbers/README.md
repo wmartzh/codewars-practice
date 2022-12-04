@@ -19,3 +19,5 @@ M          1,000
 ```
 
 Courtesy of rosettacode.org
+
+[Go to Codewars](https://www.codewars.com/kata/51b6249c4612257ac0000005/typescript)

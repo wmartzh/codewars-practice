@@ -9,7 +9,7 @@ const romanValues: any = {
 };
 function solution(roman: string) {
   let result = 0;
-  //IV
+
   const characters = roman.split("");
 
   characters.forEach((character: string, index: number) => {
