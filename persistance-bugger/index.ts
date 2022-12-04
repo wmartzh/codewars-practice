@@ -10,10 +10,10 @@ export function persistence(num: number, cnt = 1): number {
   let counter: number = cnt;
   const numbers: number[] = numberToArray(num);
 
-  if (numbers.length > 1) {
+  if (num > 9) {
     const result = recursiveMultiplication(numbers);
 
-    if (numberToArray(result).length > 1) {
+    if (result > 9) {
       return persistence(result, counter + 1);
     }
     return counter;
